@@ -1,0 +1,1 @@
+{"main":{"identifier":"main","description":"Local dashboard only. Service webviews have no native permissions.","local":true,"webviews":["main"],"permissions":["core:default"]}}

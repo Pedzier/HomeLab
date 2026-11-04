@@ -1,0 +1,30 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000000001",
+    "name": "Home Assistant",
+    "icon": "house",
+    "localUrl": "http://192.168.1.50:8123",
+    "remoteUrl": null,
+    "localHost": null,
+    "localPort": null,
+    "remoteHost": null,
+    "remotePort": null,
+    "connectionMode": "auto",
+    "credentialId": null,
+    "order": 0
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000002",
+    "name": "Proxmox",
+    "icon": "server",
+    "localUrl": "https://192.168.1.20:8006",
+    "remoteUrl": null,
+    "localHost": null,
+    "localPort": null,
+    "remoteHost": null,
+    "remotePort": null,
+    "connectionMode": "auto",
+    "credentialId": null,
+    "order": 1
+  }
+]

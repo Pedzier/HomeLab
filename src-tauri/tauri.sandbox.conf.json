@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "HomeLab Sandbox",
+  "identifier": "pl.homelab.desktop.sandboxcheck",
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "HomeLab Sandbox",
+        "width": 1180,
+        "height": 800,
+        "minWidth": 820,
+        "minHeight": 600,
+        "create": false
+      }
+    ]
+  },
+  "bundle": {
+    "targets": [
+      "app"
+    ],
+    "resources": {
+      "sandbox-check/endpoints.local.json": "sandbox-endpoints.json"
+    },
+    "macOS": {
+      "entitlements": "Sandbox.entitlements.plist",
+      "signingIdentity": "-"
+    }
+  }
+}
